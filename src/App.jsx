@@ -40,7 +40,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
 const App = () => {
   return (
-    <div>
+    <div class="divvs">
       {/* headr */}
       <div className="w-[100%] h-[70px] bg-[#1B1B1B] flex justify-evenly items-center">
         <TemporaryDrawer />

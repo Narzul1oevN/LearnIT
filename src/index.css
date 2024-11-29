@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.divvs{
+    max-width: 1600px;
+    margin: auto;
+}
