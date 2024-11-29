@@ -529,14 +529,14 @@ const App = () => {
       {/* secion7 */}
       <div className="w-[100%] h-[auto] pt-[50px] pb-[50px] bg-[#DA4533] flex flex-wrap gap-[50px] items-center justify-center">
         <div className="flex flex-col gap-[30px] items-start p-[10px]">
-            <h1 className="text-[40px] font-[700] text-white">Присоединяйтесь к нам</h1>
-            <p className="text-white text-[20px] font-[400]">Оставьте заявку, и мы пригласим вас на наш бесплатный <br /> мастер-класс</p>
-              <input type="text" placeholder="Имя фамилия" className="w-[510px] text-white placeholder:text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" name="" id="" />
-            <div className="flex justify-between gap-[10px]">
-              <input placeholder="Возраст" className="w-[250px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" type="text" name="" id="" />
-              <input placeholder="Телефон" className="w-[250px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" type="text" name="" id="" />
+            <h1 className="sm:text-[30px] md:text-[32px] lg:text-[34px] xl:text-[36px] 2xl:text-[40px] font-[700] text-white">Присоединяйтесь к нам</h1>
+            <p className="text-white sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-[400]">Оставьте заявку, и мы пригласим вас на наш бесплатный <br /> мастер-класс</p>
+              <input type="text" placeholder="Имя фамилия" className="sm:w-[330px] md:w-[350px] lg:w-[400px] xl:w-[450px] 2xl:w-[510px] text-white placeholder:text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" name="" id="" />
+            <div className="flex justify-between sm:gap-[20px] 2xl:gap-[10px] flex-wrap">
+              <input placeholder="Возраст" className="sm:w-[330px] 2xl:w-[250px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" type="text" name="" id="" />
+              <input placeholder="Телефон" className="sm:w-[330px] 2xl:w-[250px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" type="text" name="" id="" />
             </div>
-              <input placeholder="Сообщение" className="w-[510px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" type="text" name="" id="" />
+              <input placeholder="Сообщение" className="sm:w-[330px] md:w-[350px] lg:w-[400px] xl:w-[450px] 2xl:w-[510px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" type="text" name="" id="" />
               <button className="pt-[10px] pl-[20px] pb-[10px] pr-[20px] text-white hover:bg-[#ff05055c] rounded-[10px] outline-none text-[16px] font-[600] bg-[#ff0505]">Записаться на бесплатный урок</button>
         </div>
         <img src={image4} alt="" />
@@ -582,18 +582,6 @@ const App = () => {
             <ul className="text-sm space-y-2">
               <li>Схема проезда</li>
             </ul>
-          </div>
-        </div>
-
-        <div className="mt-8 border-t border-gray-600 pt-4 text-center text-sm">
-          <p>&copy; 2021 IPhub. Все права защищены.</p>
-          <div className="flex justify-center gap-4 mt-2">
-            <a href="#" className="hover:underline">
-              Публичная оферта
-            </a>
-            <a href="#" className="hover:underline">
-              Пользовательское соглашение
-            </a>
           </div>
         </div>
       </footer>
