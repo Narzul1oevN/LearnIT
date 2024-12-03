@@ -393,11 +393,10 @@ const App = () => {
       <div className="w-[100%] h-[auto] pt-[100px] pb-[100px] flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center bg-[#DA4533]">
         <div className="w-[85%] flex flex-col gap-[20px] justify-center items-start">
           <h1 className=" text-[38px] text-white font-serif">
-            Решения для вашего бизнеса
+            Частые вопросы
           </h1>
           <p className="text-[16px] text-[#ffffff]">
-            У нас есть все необходимые ресурсы для решения любых ваших
-            потребностей в сфере <br /> интеллектуальной собственности
+          Часто задаваемые вопросы помогают нашим клиентам быстро находить ответы на основные темы. Мы собрали ключевую информацию, <br /> чтобы сделать сотрудничество удобным и понятным.
           </p>
           <div className="w-[90%] h-[auto] bg-[#1B1B1B] p-[20px] pb-[50px] rounded-[10px] flex flex-col gap-[20px]">
             <h1 className="text-white text-[24px]">
@@ -587,7 +586,10 @@ const App = () => {
             Записаться на бесплатный урок
           </button>
         </div>
-        <img src={image4} alt="" />
+            <div className="flex flex-col justify-center items-center text-white sm:text-[30px] md:text-[32px] lg:text-[34px] xl:text-[38px] 2xl:text-[40px] font-[700]">
+            <img className="sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[450px] 2xl:w-[500px]" src={logoLearnIT} alt="" />
+            <p>Learn IT Academy</p>
+            </div>
       </div>
 
       {/* footer */}
