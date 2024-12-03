@@ -10,10 +10,15 @@ import logo3 from "./assets/appInventor copy.png";
 import logo4 from "./assets/pyton.png";
 import logo5 from "./assets/C++.png";
 import logo6 from "./assets/Design.jpg";
-import logo7 from "./assets/1C.jpg"
+import logo7 from "./assets/1C.jpg";
 import logo8 from "./assets/PHP.png";
+import photoweb from "./assets/WEBSITE.png";
+import photo1CC from "./assets/ldkdsvmk.jpg";
+import m from "./assets/M copy.png"
+import tojbis from "./assets/Untitled-1 copy.png"
+import fin from "./assets/fingroum copy.png"
 
-  // video
+// video
 import videos from "./assets/1752187418_714D620C6B9632E207F557849DC535BC_video_dashinit.mp4";
 import video2 from "./assets/1752187418_D04107FA528E48A441C2EEB74D5C788A_video_dashinit.mp4";
 import video3 from "./assets/IMG_1733.MOV--online-audio-convert.com.mp4";
@@ -181,7 +186,7 @@ const App = () => {
       </div>
 
       {/* secion3 */}
-      <div className="w-[100%] h-auto pt-[100px] pb-[100px] bg-[url('./assets/backgroud_grey.png')] bg-repeat-round flex sm:justify-center md:justify-center lg:justify-center xl:justify-center 2xl:justify-center items-center">
+      <div className="w-[100%] h-auto pt-[100px] pb-[100px]  flex sm:justify-center md:justify-center lg:justify-center xl:justify-center 2xl:justify-center items-center">
         <div className="w-[85%] flex flex-col gap-[20px] justify-center items-start">
           <h1 className=" text-[38px] font-serif">Наши курсы</h1>
           <p className="text-[16px] text-[#8A8A8A] sm:w-[300px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[800px] text-justify">
@@ -192,7 +197,6 @@ const App = () => {
             ИТ-индустрии!
           </p>
           <div className="w-[100%] h-auto flex flex-wrap justify-center gap-x-[10px] gap-y-[50px]">
-            
             <div className="w-[310px] h-[500px] flex flex-col justify-between">
               <img className="w-[60%] m-auto" src={logo1} alt="" />
               <div className="flex gap-[20px] items-center">
@@ -327,7 +331,11 @@ const App = () => {
               </div>
 
               <div className="w-[310px] h-[500px] flex flex-col justify-between ">
-                <img className="w-[60%] m-auto rounded-[50%]" src={logo6} alt="" />
+                <img
+                  className="w-[60%] m-auto rounded-[50%]"
+                  src={logo6}
+                  alt=""
+                />
                 <div className="flex gap-[20px] items-center">
                   <CalendarMonthIcon className="text-[#dc3545]" />
                   <p className="text-[16px] font-[650] text-gray-700">
@@ -445,39 +453,36 @@ const App = () => {
       {/* secion5 */}
       <div className="w-[100%] h-[auto] pt-[100px] pb-[100px]  flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center flex-col justify-start items-centert gap-[30px] bg-[url('./assets/backgroud_black.png')] bg-cover bg-center bg-[#1B1B1B] bg-blend-multiply">
         <div className="w-[85%] flex flex-col gap-[20px] justify-center items-start">
-          <h1 className=" text-[38px] font-serif text-white">
-            Решения для вашего бизнеса
-          </h1>
+          <h1 className=" text-[38px] font-serif text-white">Наши услуги</h1>
           <p className="text-[16px] text-[#8A8A8A]">
-            У нас есть все необходимые ресурсы для решения любых ваших
-            потребностей в сфере <br /> интеллектуальной собственности
+            Мы предлагаем создание веб-сайтов, автоматизацию бизнеса и настройку
+            бухгалтерии в 1С. <br /> Наши решения повышают эффективность и
+            упрощают управление.
           </p>
           <div className="flex flex-wrap gap-[10px]">
-            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-evenly items-center p-[20px]">
-              <img className="w-[167px] h-[176px]" src={image3} alt="" />
+            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-center gap-[10px] items-center p-[20px]">
+              <img className="w-[250px]" src={photoweb} alt="" />
               <p className="text-[18px] text-[#8A8A8A]">
-                Регистрация товарного знака в Роспатенте
+                Создание web - сайтов
               </p>
             </div>
 
-            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-evenly items-center p-[20px]">
-              <img className="w-[167px] h-[176px]" src={image3} alt="" />
+            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-center gap-[60px] items-center p-[20px]">
+              <img className="w-[180px] rounded-[50%]" src={photo1CC} alt="" />
+              <p className="text-[18px] text-[#8A8A8A]">1С Бухгалтерия</p>
+            </div>
+
+            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-center gap-[10px] items-center p-[20px]">
+              <img className="w-[250px]" src={photoweb} alt="" />
               <p className="text-[18px] text-[#8A8A8A]">
-                Регистрация товарного знака в Роспатенте
+                Создание web - сайтов
               </p>
             </div>
 
-            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-evenly items-center p-[20px]">
-              <img className="w-[167px] h-[176px]" src={image3} alt="" />
+            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-center gap-[10px] items-center p-[20px]">
+              <img className="w-[250px]" src={photoweb} alt="" />
               <p className="text-[18px] text-[#8A8A8A]">
-                Регистрация товарного знака в Роспатенте
-              </p>
-            </div>
-
-            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-evenly items-center p-[20px]">
-              <img className="w-[167px] h-[176px]" src={image3} alt="" />
-              <p className="text-[18px] text-[#8A8A8A]">
-                Регистрация товарного знака в Роспатенте
+                Создание web - сайтов
               </p>
             </div>
           </div>
@@ -487,39 +492,17 @@ const App = () => {
       {/* secion6 */}
       <div className="w-[100%] h-auto pt-[100px] pb-[100px] bg-[url('./assets/backgroud_grey.png')] flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center">
         <div className="w-[90%] flex flex-col gap-[20px] justify-center items-start">
-          <h1 className=" text-[38px] font-serif">
-            Решения для вашего бизнеса
-          </h1>
+          <h1 className=" text-[38px] font-serif">Наша команда</h1>
           <p className="text-[16px] text-[#8A8A8A]">
-            У нас есть все необходимые ресурсы для решения любых ваших
-            потребностей в сфере <br /> интеллектуальной собственности
+            Наша команда — это опытные специалисты, которые создают эффективные
+            решения для бизнеса. <br /> Мы работаем слаженно, чтобы каждый
+            проект был успешным и приносил результат.
           </p>
           <div className="flex flex-wrap gap-[10px]">
             <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px] h-[320px]" src={person} alt="" />
-              <p className="text-[18px] text-[#8A8A8A]">
-                Регистрация товарного знака в Роспатенте
-              </p>
-            </div>
-
-            <div className="w-[300px] h-[400px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px] h-[320px]" src={person} alt="" />
-              <p className="text-[18px] text-[#8A8A8A]">
-                Регистрация товарного знака в Роспатенте
-              </p>
-            </div>
-
-            <div className="w-[300px] h-[400px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px] h-[320px]" src={person} alt="" />
-              <p className="text-[18px] text-[#8A8A8A]">
-                Регистрация товарного знака в Роспатенте
-              </p>
-            </div>
-
-            <div className="w-[300px] h-[400px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px] h-[320px]" src={person} alt="" />
-              <p className="text-[18px] text-[#8A8A8A]">
-                Регистрация товарного знака в Роспатенте
+              <img className="w-[289px]" src={person} alt="" />
+              <p className="text-[18px] text-center text-[#8A8A8A]">
+                Имя Фамилия
               </p>
             </div>
           </div>
@@ -527,17 +510,82 @@ const App = () => {
       </div>
 
       {/* secion7 */}
+      <div className="w-[100%] h-[auto] pt-[100px] pb-[100px]  flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center flex-col justify-start items-centert gap-[30px] bg-[url('./assets/backgroud_black.png')] bg-cover bg-center bg-[#1B1B1B] bg-blend-multiply">
+        <div className="w-[85%] flex flex-col gap-[20px] justify-center items-start">
+          <h1 className=" text-[38px] font-serif text-white">Наши партнёры</h1>
+          <p className="text-[16px] text-[#8A8A8A]">
+
+          Наши партнёры — это надёжные компании, которые помогают нам создавать качественные и эффективные решения. <br /> Вместе мы добиваемся высоких результатов и успешных проектов.
+          </p>
+          <div className="flex flex-wrap m-auto gap-[50px]">
+            <div className="w-[300px] h-[400px] rounded-[10px] flex flex-col justify-center gap-[30px] items-center p-[20px]">
+              <img className="w-[250px]" src={m} alt="" />
+              <p className="text-[18px] text-[#8A8A8A]">
+                Oson Market
+              </p>
+            </div>
+
+            <div className="w-[300px] h-[400px] rounded-[10px] flex flex-col justify-center gap-[30px] items-center p-[20px]">
+              <img className="w-[250px]" src={tojbis} alt="" />
+              <p className="text-[18px] text-[#8A8A8A]">
+                БИЗНЕС-ИНКУБАТОР
+              </p>
+            </div>
+
+            <div className="w-[300px] h-[400px] rounded-[10px] flex flex-col justify-center gap-[30px] items-center p-[20px]">
+              <img className="w-[250px]" src={fin} alt="" />
+              <p className="text-[18px] text-[#8A8A8A]">
+                Fin Group
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      {/* secion8 */}
       <div className="w-[100%] h-[auto] pt-[50px] pb-[50px] bg-[#DA4533] flex flex-wrap gap-[50px] items-center justify-center">
         <div className="flex flex-col gap-[30px] items-start p-[10px]">
-            <h1 className="sm:text-[30px] md:text-[32px] lg:text-[34px] xl:text-[36px] 2xl:text-[40px] font-[700] text-white">Присоединяйтесь к нам</h1>
-            <p className="text-white sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-[400]">Оставьте заявку, и мы пригласим вас на наш бесплатный <br /> мастер-класс</p>
-              <input type="text" placeholder="Имя фамилия" className="sm:w-[330px] md:w-[350px] lg:w-[400px] xl:w-[450px] 2xl:w-[510px] text-white placeholder:text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" name="" id="" />
-            <div className="flex justify-between sm:gap-[20px] 2xl:gap-[10px] flex-wrap">
-              <input placeholder="Возраст" className="sm:w-[330px] 2xl:w-[250px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" type="text" name="" id="" />
-              <input placeholder="Телефон" className="sm:w-[330px] 2xl:w-[250px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" type="text" name="" id="" />
-            </div>
-              <input placeholder="Сообщение" className="sm:w-[330px] md:w-[350px] lg:w-[400px] xl:w-[450px] 2xl:w-[510px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent" type="text" name="" id="" />
-              <button className="pt-[10px] pl-[20px] pb-[10px] pr-[20px] text-white hover:bg-[#ff05055c] rounded-[10px] outline-none text-[16px] font-[600] bg-[#ff0505]">Записаться на бесплатный урок</button>
+          <h1 className="sm:text-[30px] md:text-[32px] lg:text-[34px] xl:text-[36px] 2xl:text-[40px] font-[700] text-white">
+            Присоединяйтесь к нам
+          </h1>
+          <p className="text-white sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-[400]">
+            Оставьте заявку, и мы пригласим вас на наш бесплатный <br />{" "}
+            мастер-класс
+          </p>
+          <input
+            type="text"
+            placeholder="Имя фамилия"
+            className="sm:w-[330px] md:w-[350px] lg:w-[400px] xl:w-[450px] 2xl:w-[510px] text-white placeholder:text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent"
+            name=""
+            id=""
+          />
+          <div className="flex justify-between sm:gap-[20px] 2xl:gap-[10px] flex-wrap">
+            <input
+              placeholder="Возраст"
+              className="sm:w-[330px] 2xl:w-[250px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent"
+              type="text"
+              name=""
+              id=""
+            />
+            <input
+              placeholder="Телефон"
+              className="sm:w-[330px] 2xl:w-[250px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent"
+              type="text"
+              name=""
+              id=""
+            />
+          </div>
+          <input
+            placeholder="Сообщение"
+            className="sm:w-[330px] md:w-[350px] lg:w-[400px] xl:w-[450px] 2xl:w-[510px] placeholder:text-white text-white pl-[5px] outline-none border-b-[2px] border-b-[solid] border-b-[#ffffff70] bg-transparent"
+            type="text"
+            name=""
+            id=""
+          />
+          <button className="pt-[10px] pl-[20px] pb-[10px] pr-[20px] text-white hover:bg-[#ff05055c] rounded-[10px] outline-none text-[16px] font-[600] bg-[#ff0505]">
+            Записаться на бесплатный урок
+          </button>
         </div>
         <img src={image4} alt="" />
       </div>
@@ -548,7 +596,7 @@ const App = () => {
           <div className="w-full lg:w-1/3">
             <img className="w-[200px]" src={logo} alt="" />
             <p className="mt-2 text-sm">
-            Худжанд, 20-й микрорайон, Кохи Матбуот, 11-й этаж
+              Худжанд, 20-й микрорайон, Кохи Матбуот, 11-й этаж
             </p>
           </div>
 
@@ -572,7 +620,7 @@ const App = () => {
           <div className="w-full sm:w-1/2 lg:w-auto">
             <h2 className="text-lg font-semibold mb-4">Мы в соцсетях:</h2>
             <ul className="text-sm space-y-2">
-              <li href = "#" >Facebook</li>
+              <li href="#">Facebook</li>
               <li>Instagram</li>
             </ul>
           </div>
