@@ -37,23 +37,23 @@ export default function TemporaryDrawer() {
       </div>
       <div className="flex items-center gap-[20px] hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
         <InfoIcon />
-        <p>О нас</p>
+        <a href="#secions2">О нас</a>
       </div>
       <div className="flex items-center gap-[20px] hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
         <AutoStoriesIcon />
-        <p>Курсы</p>
+        <a href="#secioncours">Курсы</a>
       </div>
       <div className="flex items-center gap-[20px] hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
         <SupervisedUserCircleIcon />
-        <p>Преподаватели</p>
+        <a href="#secionmentors">Преподаватели</a>
       </div>
       <div className="flex items-center gap-[20px] hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
         <NewspaperIcon />
-        <p>Новости</p>
+        <a href="#secionpartner">Блог</a>
       </div>
       <div className="flex items-center gap-[20px] hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
         <ContactPhoneIcon />
-        <p>Контакты</p>
+        <a href="#secioncontact">Контакты</a>
       </div>
       <div className="flex items-center gap-[20px] hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
         <ExitToAppIcon />
