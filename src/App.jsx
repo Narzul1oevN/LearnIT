@@ -17,6 +17,10 @@ import photo1CC from "./assets/ldkdsvmk.jpg";
 import m from "./assets/M copy.png"
 import tojbis from "./assets/Untitled-1 copy.png"
 import fin from "./assets/fingroum copy.png"
+import uxui from "./assets/UXUI.jpg"
+import consult from "./assets/1-contacto.jpg"
+import uxui2 from "./assets/UUXXUII.jpg"
+
 
 // video
 import videos from "./assets/1752187418_714D620C6B9632E207F557849DC535BC_video_dashinit.mp4";
@@ -42,6 +46,7 @@ import HistoryEduIcon from "@mui/icons-material/HistoryEdu";
 import PublicIcon from "@mui/icons-material/Public";
 import ExtensionIcon from "@mui/icons-material/Extension";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import FAQSection from "./components/FAQ.jsx";
 
 const App = () => {
   return (
@@ -56,21 +61,21 @@ const App = () => {
           <p className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
             Главная
           </p>
-          <p className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
+          <a href="#secions2" className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
             О нас
-          </p>
-          <p className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
+          </a>
+          <a href="#secioncours" className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
             Курсы
-          </p>
-          <p className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
+          </a>
+          <a href="#secionmentors" className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
             Преподаватели
-          </p>
-          <p className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
+          </a>
+          <a href="#secionpartner" className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
             Блог
-          </p>
-          <p className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
+          </a>
+          <a href="#secioncontact" className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
             Контакты
-          </p>
+          </a>
           <p className="hover:text-[#dc3545] hover:transition-[10s] hover:cursor-pointer">
             Вход
           </p>
@@ -109,7 +114,7 @@ const App = () => {
         </div>
 
         {/* secion2 */}
-        <div className="w-[100%] flex flex-wrap sm:gap-[10px] md:gap-[20px] lg:gap-[30px] xl:gap-[40px] 2xl:gap-[50px] justify-center items-center pb-[50px]">
+        <div id="secions2" className="w-[100%] flex flex-wrap sm:gap-[10px] md:gap-[20px] lg:gap-[30px] xl:gap-[40px] 2xl:gap-[50px] justify-center items-center pb-[50px]">
           <Swiper
             slidesPerView={1}
             loop={true}
@@ -186,7 +191,7 @@ const App = () => {
       </div>
 
       {/* secion3 */}
-      <div className="w-[100%] h-auto pt-[100px] pb-[100px]  flex sm:justify-center md:justify-center lg:justify-center xl:justify-center 2xl:justify-center items-center">
+      <div id="secioncours" className="w-[100%] h-auto pt-[100px] pb-[100px]  flex sm:justify-center md:justify-center lg:justify-center xl:justify-center 2xl:justify-center items-center">
         <div className="w-[85%] flex flex-col gap-[20px] justify-center items-start">
           <h1 className=" text-[38px] font-serif">Наши курсы</h1>
           <p className="text-[16px] text-[#8A8A8A] sm:w-[300px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[800px] text-justify">
@@ -220,6 +225,26 @@ const App = () => {
             </div>
 
             <div className="w-[310px] h-[500px] flex flex-col justify-between ">
+              <img className="w-[60%] m-auto" src={logo3} alt="" />
+              <div className="flex gap-[20px] items-center">
+                <CalendarMonthIcon className="text-[#dc3545]" />
+                <p className="text-[16px] font-[650] text-gray-700">3 МЕСЯЦА</p>
+              </div>
+              <p className="font-sans font-[500] text-[24px]">App Inventor</p>
+              <p className="text-[16px] text-[#666666] font-[400px]">
+                #android #mobile #apk
+              </p>
+              <p className="w-[95%] text-justify">
+                Курс идеально подходит для освоения основ работы в App Inventor,
+                включая 80% практики и 20% теории, что поможет в разработке
+                мобильных программ для работы.
+              </p>
+              <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
+                Подать заявку
+              </button>
+            </div>
+
+            <div className="w-[310px] h-[500px] flex flex-col justify-between ">
               <img className="w-[60%] m-auto" src={logo2} alt="" />
               <div className="flex gap-[20px] items-center">
                 <CalendarMonthIcon className="text-[#dc3545]" />
@@ -241,25 +266,7 @@ const App = () => {
               </button>
             </div>
 
-            <div className="w-[310px] h-[500px] flex flex-col justify-between ">
-              <img className="w-[60%] m-auto" src={logo3} alt="" />
-              <div className="flex gap-[20px] items-center">
-                <CalendarMonthIcon className="text-[#dc3545]" />
-                <p className="text-[16px] font-[650] text-gray-700">3 МЕСЯЦА</p>
-              </div>
-              <p className="font-sans font-[500] text-[24px]">App Inventor</p>
-              <p className="text-[16px] text-[#666666] font-[400px]">
-                #android #mobile #apk
-              </p>
-              <p className="w-[95%] text-justify">
-                Курс идеально подходит для освоения основ работы в App Inventor,
-                включая 80% практики и 20% теории, что поможет в разработке
-                мобильных программ для работы.
-              </p>
-              <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
-                Подать заявку
-              </button>
-            </div>
+
 
             <div className="w-[310px] h-[500px] flex flex-col justify-between ">
               <img className="w-[60%] m-auto" src={logo4} alt="" />
@@ -390,7 +397,7 @@ const App = () => {
       </div>
 
       {/* secion4 */}
-      <div className="w-[100%] h-[auto] pt-[100px] pb-[100px] flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center bg-[#DA4533]">
+      {/* <div className="w-[100%] h-[auto] pt-[100px] pb-[100px] flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center bg-[#DA4533]">
         <div className="w-[85%] flex flex-col gap-[20px] justify-center items-start">
           <h1 className=" text-[38px] text-white font-serif">
             Частые вопросы
@@ -447,7 +454,9 @@ const App = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
+      <FAQSection/>
 
       {/* secion5 */}
       <div className="w-[100%] h-[auto] pt-[100px] pb-[100px]  flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center flex-col justify-start items-centert gap-[30px] bg-[url('./assets/backgroud_black.png')] bg-cover bg-center bg-[#1B1B1B] bg-blend-multiply">
@@ -471,17 +480,17 @@ const App = () => {
               <p className="text-[18px] text-[#8A8A8A]">1С Бухгалтерия</p>
             </div>
 
-            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-center gap-[10px] items-center p-[20px]">
-              <img className="w-[250px]" src={photoweb} alt="" />
+            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-center gap-[80px] items-center p-[20px]">
+              <img className="w-[170px] rounded-[50%]" src={uxui2} alt="" />
               <p className="text-[18px] text-[#8A8A8A]">
-                Создание web - сайтов
+                Создание UX-UI сайта.
               </p>
             </div>
 
-            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-center gap-[10px] items-center p-[20px]">
-              <img className="w-[250px]" src={photoweb} alt="" />
+            <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-center gap-[50px] items-center p-[20px]">
+              <img className="w-[180px] rounded-[50%]" src={consult} alt="" />
               <p className="text-[18px] text-[#8A8A8A]">
-                Создание web - сайтов
+                Бесплатная консультация.
               </p>
             </div>
           </div>
@@ -489,7 +498,7 @@ const App = () => {
       </div>
 
       {/* secion6 */}
-      <div className="w-[100%] h-auto pt-[100px] pb-[100px] bg-[url('./assets/backgroud_grey.png')] flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center">
+      <div id="secionmentors" className="w-[100%] h-auto pt-[100px] pb-[100px] bg-[url('./assets/backgroud_grey.png')] flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center">
         <div className="w-[90%] flex flex-col gap-[20px] justify-center items-start">
           <h1 className=" text-[38px] font-serif">Наша команда</h1>
           <p className="text-[16px] text-[#8A8A8A]">
@@ -509,7 +518,7 @@ const App = () => {
       </div>
 
       {/* secion7 */}
-      <div className="w-[100%] h-[auto] pt-[100px] pb-[100px]  flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center flex-col justify-start items-centert gap-[30px] bg-[url('./assets/backgroud_black.png')] bg-cover bg-center bg-[#1B1B1B] bg-blend-multiply">
+      <div id="secionpartner" className="w-[100%] h-[auto] pt-[100px] pb-[100px]  flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center flex-col justify-start items-centert gap-[30px] bg-[url('./assets/backgroud_black.png')] bg-cover bg-center bg-[#1B1B1B] bg-blend-multiply">
         <div className="w-[85%] flex flex-col gap-[20px] justify-center items-start">
           <h1 className=" text-[38px] font-serif text-white">Наши партнёры</h1>
           <p className="text-[16px] text-[#8A8A8A]">
@@ -518,9 +527,9 @@ const App = () => {
           </p>
           <div className="flex flex-wrap m-auto gap-[50px]">
             <div className="w-[300px] h-[400px] rounded-[10px] flex flex-col justify-center gap-[30px] items-center p-[20px]">
-              <img className="w-[250px]" src={m} alt="" />
+              <img className="w-[250px]" src={fin} alt="" />
               <p className="text-[18px] text-[#8A8A8A]">
-                Oson Market
+              Fin Group
               </p>
             </div>
 
@@ -532,9 +541,9 @@ const App = () => {
             </div>
 
             <div className="w-[300px] h-[400px] rounded-[10px] flex flex-col justify-center gap-[30px] items-center p-[20px]">
-              <img className="w-[250px]" src={fin} alt="" />
+              <img className="w-[250px]" src={m} alt="" />
               <p className="text-[18px] text-[#8A8A8A]">
-                Fin Group
+              Oson Market
               </p>
             </div>
 
@@ -543,7 +552,7 @@ const App = () => {
       </div>
 
       {/* secion8 */}
-      <div className="w-[100%] h-[auto] pt-[50px] pb-[50px] bg-[#DA4533] flex flex-wrap gap-[50px] items-center justify-center">
+      <div id="secioncontact" className="w-[100%] h-[auto] pt-[50px] pb-[50px] bg-[#DA4533] flex flex-wrap gap-[50px] items-center justify-center">
         <div className="flex flex-col gap-[30px] items-start p-[10px]">
           <h1 className="sm:text-[30px] md:text-[32px] lg:text-[34px] xl:text-[36px] 2xl:text-[40px] font-[700] text-white">
             Присоединяйтесь к нам
