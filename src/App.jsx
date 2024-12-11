@@ -52,7 +52,7 @@ const App = () => {
   return (
     <div class="divvs">
       {/* headr */}
-      <div className="w-[100%] h-[70px] bg-[#1B1B1B] flex justify-evenly items-center fixed">
+      <div className="w-[100%] h-[70px] bg-[#1B1B1B] flex justify-evenly items-center fixed z-[100]">
         <TemporaryDrawer />
 
         <img className="h-[40px]" src={logo} alt="" />
