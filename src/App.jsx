@@ -52,7 +52,7 @@ const App = () => {
   return (
     <div class="divvs">
       {/* headr */}
-      <div className="w-[100%] h-[70px] bg-[#1B1B1B] flex justify-evenly items-center">
+      <div className="w-[100%] h-[70px] bg-[#1B1B1B] flex justify-evenly items-center fixed">
         <TemporaryDrawer />
 
         <img className="h-[40px]" src={logo} alt="" />
@@ -88,7 +88,7 @@ const App = () => {
       </div>
 
       {/* body */}
-      <div className="w-[100%] h-[auto] flex flex-col justify-start items-centert gap-[30px] bg-[url('./assets/backgroud_black.png')] bg-cover bg-center bg-[#1B1B1B] bg-blend-multiply">
+      <div className="w-[100%] pt-[70px] h-[auto] flex flex-col justify-start items-centert gap-[30px] bg-[url('./assets/backgroud_black.png')] bg-cover bg-center bg-[#1B1B1B] bg-blend-multiply">
         {/* secion1 */}
         <div className="w-[100%] flex flex-wrap sm:gap-[10px] md:gap-[20px] lg:gap-[30px] xl:gap-[40px] 2xl:gap-[50px] justify-center items-center">
           <div className=" p-[10px] sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[450px] 2xl:w-[550px] h-[500px] flex flex-col justify-center gap-[20px]">
