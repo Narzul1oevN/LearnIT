@@ -1,7 +1,11 @@
 // IMAGE
 import logo from "./assets/photo_2024-06-19_19-36-28.jpg";
 import image3 from "./assets/objects.png";
-import person from "./assets/Frame 251.png";
+import narzullo from "./assets/нарзулло.png";
+import amir from "./assets/amir.jpg";
+import mehrdod from "./assets/mehrdod.jpg";
+import madina from "./assets/madina.jpg";
+import ismoil from "./assets/ismoil.jpg";
 import image4 from "./assets/Group 248.png";
 import logoLearnIT from "./assets/photo_2024-11-26_09-52-14 copy.png";
 import logo1 from "./assets/КомпГрамм.png";
@@ -92,7 +96,6 @@ const App = () => {
         {/* secion1 */}
         <div className="w-[100%] flex flex-wrap sm:gap-[10px] md:gap-[20px] lg:gap-[30px] xl:gap-[40px] 2xl:gap-[50px] justify-center items-center">
           <div className=" p-[10px] sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[450px] 2xl:w-[550px] h-[500px] flex flex-col justify-center gap-[20px]">
-            <p className="text-[#8A8A8A] text-[16px]">ВАШ IT ACADEMY</p>
             <h1 className="sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[45px] 2xl:text-[45px] text-[white] font-[700] font-serif">
               Добро пожаловать <br />в акадеиию Learn IT
             </h1>
@@ -219,9 +222,9 @@ const App = () => {
                 включая 80% практики и 20% теории, что помогает развить навыки
                 для работы, учебы и проектов.
               </p>
-              <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
+              <a href="#secioncontact" className="w-[150px] flex justify-center items-center pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
                 Подать заявку
-              </button>
+              </a>
             </div>
 
             <div className="w-[310px] h-[500px] flex flex-col justify-between ">
@@ -239,9 +242,9 @@ const App = () => {
                 включая 80% практики и 20% теории, что поможет в разработке
                 мобильных программ для работы.
               </p>
-              <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
+              <a href="#secioncontact" className="w-[150px] flex justify-center items-center pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
                 Подать заявку
-              </button>
+              </a>
             </div>
 
             <div className="w-[310px] h-[500px] flex flex-col justify-between ">
@@ -261,9 +264,9 @@ const App = () => {
                 включая 80% практики и 20% теории, что помогает развить навыки
                 для работы.
               </p>
-              <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
+              <a href="#secioncontact" className="w-[150px] flex justify-center items-center pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
                 Подать заявку
-              </button>
+              </a>
             </div>
 
 
@@ -276,7 +279,7 @@ const App = () => {
                   5-7 МЕСЯЦА
                 </p>
               </div>
-              <p className="font-sans font-[500] text-[24px]">Pyton</p>
+              <p className="font-sans font-[500] text-[24px]">Python</p>
               <p className="text-[16px] text-[#666666] font-[400px]">
                 #telegram #bot #server #django
               </p>
@@ -285,9 +288,9 @@ const App = () => {
                 практики и 20% теории, что поможет разработать чат-ботов,
                 искусственный интеллект и проекты.
               </p>
-              <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
+              <a href="#secioncontact" className="w-[150px] flex justify-center items-center pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
                 Подать заявку
-              </button>
+              </a>
             </div>
 
             <div className="w-[100%] h-auto flex flex-wrap justify-center gap-x-[10px] gap-y-[50px]">
@@ -308,9 +311,9 @@ const App = () => {
                   практики и 20% теории, что поможет разработать игры,
                   компьютерные программы.
                 </p>
-                <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
+                <a href="#secioncontact" className="w-[150px] flex justify-center items-center pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
                   Подать заявку
-                </button>
+                </a>
               </div>
 
               <div className="w-[310px] h-[500px] flex flex-col justify-between ">
@@ -332,9 +335,9 @@ const App = () => {
                   практики и 20% теории, что поможет создавать веб-сайты,
                   серверные приложения и автоматизировать процессы.
                 </p>
-                <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
+                <a href="#secioncontact" className="w-[150px] flex justify-center items-center pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
                   Подать заявку
-                </button>
+                </a>
               </div>
 
               <div className="w-[310px] h-[500px] flex flex-col justify-between ">
@@ -359,9 +362,9 @@ const App = () => {
                   освоить CorelDraw, Photoshop и Figma для создания
                   профессиональных дизайнов.
                 </p>
-                <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
+                <a href="#secioncontact" className="w-[150px] flex justify-center items-center pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
                   Подать заявку
-                </button>
+                </a>
               </div>
 
               <div className="w-[310px] h-[500px] flex flex-col justify-between ">
@@ -387,9 +390,9 @@ const App = () => {
                   практики и 20% теории, что поможет изучить создание ERP-систем
                   и освоить 1С:Предприятие для автоматизации процессов.
                 </p>
-                <button className="w-[150px] pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
+                <a href="#secioncontact" className="w-[150px] flex justify-center items-center pt-[8px] pb-[8px] text-white font-[400px] rounded-[20px] bg-[#dc3545] mt-[20px] hover:bg-[#dc3546d0]">
                   Подать заявку
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -498,7 +501,7 @@ const App = () => {
       </div>
 
       {/* secion6 */}
-      <div id="secionmentors" className="w-[100%] h-auto pt-[100px] pb-[100px] bg-[url('./assets/backgroud_grey.png')] flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center">
+      <div id="secionmentors" className="w-[100%] h-auto pt-[30px] pb-[30px] bg-[url('./assets/backgroud_grey.png')] flex sm:justify-center md:justify-center lg:justify-center xl:justify-end 2xl:justify-end items-center">
         <div className="w-[90%] flex flex-col gap-[20px] justify-center items-start">
           <h1 className=" text-[38px] font-serif">Наша команда</h1>
           <p className="text-[16px] text-[#8A8A8A]">
@@ -508,9 +511,37 @@ const App = () => {
           </p>
           <div className="flex flex-wrap gap-[10px]">
             <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px]" src={person} alt="" />
+              <img className="w-[289px] rounded-[7px]" src={mehrdod} alt="" />
               <p className="text-[18px] text-center text-[#8A8A8A]">
-                Имя Фамилия
+              Тохири Мехрдод
+              </p>
+            </div>
+
+            <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
+              <img className="w-[289px] rounded-[7px]" src={amir} alt="" />
+              <p className="text-[18px] text-center text-[#8A8A8A]">
+              Амир Олимов
+              </p>
+            </div>
+
+            <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
+              <img className="w-[289px] rounded-[7px]" src={narzullo} alt="" />
+              <p className="text-[18px] text-center text-[#8A8A8A]">
+                Нарзуллоев Нарзулло
+              </p>
+            </div>
+
+            <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
+              <img className="w-[289px] rounded-[7px]" src={ismoil} alt="" />
+              <p className="text-[18px] text-center text-[#8A8A8A]">
+              Исмоил Олимов
+              </p>
+            </div>
+
+            <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
+              <img className="w-[289px] rounded-[7px]" src={madina} alt="" />
+              <p className="text-[18px] text-center text-[#8A8A8A]">
+              Кодирова Мадина
               </p>
             </div>
           </div>
@@ -632,7 +663,7 @@ const App = () => {
             <h2 className="text-lg font-semibold mb-4">Мы в соцсетях:</h2>
             <ul className="text-sm space-y-2">
               <li href="#">Facebook</li>
-              <li>Instagram</li>
+              <a href="https://www.instagram.com/learn_it_academy.tj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="">Instagram</a>
             </ul>
           </div>
 
