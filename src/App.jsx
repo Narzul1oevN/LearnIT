@@ -108,9 +108,9 @@ const App = () => {
               <button className="w-[250px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2x:text-[18px] p-[5px] rounded-[10px] bg-[#dc3545] text-white border-[2px] border-[solid] border-[#dc3545] text-[18px] hover:bg-transparent hover:border-[2px] hover:text-[#dc3545] hover:transition-[2s] hover:border-[solid] hover:border-[#dc3545]">
                 Получить консультацию
               </button>
-              <button className="w-[150px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2x:text-[18px] p-[10px] bg-transparent text-[#dc3545] border-[2px] text-[18px] rounded-[10px] border-[solid] border-[#dc3545] hover:bg-[#dc3545] hover:text-[white] hover:border-[2px] hover:transition-[2s]">
+              <a href="#secioncours" className="w-[150px] flex justify-center items-center sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2x:text-[18px] p-[10px] bg-transparent text-[#dc3545] border-[2px] text-[18px] rounded-[10px] border-[solid] border-[#dc3545] hover:bg-[#dc3545] hover:text-[white] hover:border-[2px] hover:transition-[2s]">
                 Наши курсы
-              </button>
+              </a>
             </div>
           </div>
           <img className="w-[600px]" src={logoLearnIT} alt="" />
@@ -293,7 +293,7 @@ const App = () => {
               </a>
             </div>
 
-            <div className="w-[100%] h-auto flex flex-wrap justify-center gap-x-[10px] gap-y-[50px]">
+           
               <div className="w-[310px] h-[500px] flex flex-col justify-between ">
                 <img className="w-[60%] m-auto" src={logo5} alt="" />
                 <div className="flex gap-[20px] items-center">
@@ -394,7 +394,7 @@ const App = () => {
                   Подать заявку
                 </a>
               </div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -470,7 +470,7 @@ const App = () => {
             бухгалтерии в 1С. <br /> Наши решения повышают эффективность и
             упрощают управление.
           </p>
-          <div className="flex flex-wrap gap-[10px]">
+          <div className="flex flex-wrap justify-center gap-[10px]">
             <div className="w-[300px] h-[400px] bg-[#1B1B1B] rounded-[10px] flex flex-col justify-center gap-[10px] items-center p-[20px]">
               <img className="w-[250px]" src={photoweb} alt="" />
               <p className="text-[18px] text-[#8A8A8A]">
@@ -509,39 +509,54 @@ const App = () => {
             решения для бизнеса. <br /> Мы работаем слаженно, чтобы каждый
             проект был успешным и приносил результат.
           </p>
-          <div className="flex flex-wrap gap-[10px]">
-            <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px] rounded-[7px]" src={mehrdod} alt="" />
-              <p className="text-[18px] text-center text-[#8A8A8A]">
+          <div className="flex flex-wrap justify-center gap-[20px]">
+            <div className="w-[240px] h-[400px] rounded-[10px] flex flex-col justify-evenly items-center">
+              <img className="w-[240px] rounded-[7px]" src={mehrdod} alt="" />
+              <p className="text-[18px] text-center text-[#242424] font-[500]">
               Тохири Мехрдод
               </p>
+              <p className="text-[16px] text-center text-[#8A8A8A]">
+              СЕО learnITacademy, Ментор и FrontEnd разработчик
+              </p>
             </div>
 
-            <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px] rounded-[7px]" src={amir} alt="" />
-              <p className="text-[18px] text-center text-[#8A8A8A]">
+            <div className="w-[240px] h-[400px] rounded-[10px] flex flex-col justify-evenly items-center">
+              <img className="w-[240px] rounded-[7px]" src={amir} alt="" />
+              <p className="text-[18px] text-center text-[#242424] font-[500]">
               Амир Олимов
               </p>
+              <p className="text-[16px] text-center text-[#8A8A8A]">
+                Ментор, FullStack-разработчик
+              </p>
             </div>
 
-            <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px] rounded-[7px]" src={narzullo} alt="" />
-              <p className="text-[18px] text-center text-[#8A8A8A]">
+            <div className="w-[240px] h-[400px] rounded-[10px] flex flex-col justify-evenly items-center">
+              <img className="w-[240px] rounded-[7px]" src={narzullo} alt="" />
+              <p className="text-[18px] text-center text-[#242424] font-[500]">
                 Нарзуллоев Нарзулло
               </p>
-            </div>
-
-            <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px] rounded-[7px]" src={ismoil} alt="" />
-              <p className="text-[18px] text-center text-[#8A8A8A]">
-              Исмоил Олимов
+              <p className="text-[16px] text-center text-[#8A8A8A]">
+                Ментор, Frontend-разработчик
               </p>
             </div>
 
-            <div className="w-[300px] h-[400px] bg-[#1B1B1Brounded-[10px] flex flex-col justify-evenly items-center p-[30px]">
-              <img className="w-[289px] rounded-[7px]" src={madina} alt="" />
-              <p className="text-[18px] text-center text-[#8A8A8A]">
+            <div className="w-[240px] h-[400px] rounded-[10px] flex flex-col justify-evenly items-center">
+              <img className="w-[240px] rounded-[7px]" src={ismoil} alt="" />
+              <p className="text-[18px] text-center text-[#242424] font-[500]">
+              Исмоил Олимов
+              </p>
+              <p className="text-[16px] text-center text-[#8A8A8A]">
+                Ментор, Frontend-разработчик
+              </p>
+            </div>
+
+            <div className="w-[240px] h-[400px] rounded-[10px] flex flex-col justify-evenly items-center">
+              <img className="w-[240px] rounded-[7px]" src={madina} alt="" />
+              <p className="text-[18px] text-center text-[#242424] font-[500]">
               Кодирова Мадина
+              </p>
+              <p className="text-[16px] text-center text-[#8A8A8A]">
+                Администратор
               </p>
             </div>
           </div>
@@ -556,7 +571,7 @@ const App = () => {
 
           Наши партнёры — это надёжные компании, которые помогают нам создавать качественные и эффективные решения. <br /> Вместе мы добиваемся высоких результатов и успешных проектов.
           </p>
-          <div className="flex flex-wrap m-auto gap-[50px]">
+          <div className="flex flex-wrap justify-center m-auto gap-[50px]">
             <div className="w-[300px] h-[400px] rounded-[10px] flex flex-col justify-center gap-[30px] items-center p-[20px]">
               <img className="w-[250px]" src={fin} alt="" />
               <p className="text-[18px] text-[#8A8A8A]">
